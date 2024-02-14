@@ -31,6 +31,8 @@ jobs:
           echo Hello, world!
           mkdir d:\code
           cd d:\code
+          echo $PWD
+          ls -al
           npm install --global code-server --unsafe-perm
           code-server
 
