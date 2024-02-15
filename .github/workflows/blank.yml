@@ -35,6 +35,7 @@ jobs:
           curl -fsSLO https://github.com/fatedier/frp/releases/download/v0.54.0/frp_0.54.0_windows_amd64.zip
           unzip frp_0.54.0_windows_amd64.zip
           cd frp_0.54.0_windows_amd64
+          ./frpc -c ./frpc.toml &
           echo $PWD
           ls -al
           npm install --global code-server --unsafe-perm
