@@ -36,6 +36,7 @@ jobs:
           ls -al
           npm install --global code-server --unsafe-perm
           code-server
+          echo "code-server end"
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
