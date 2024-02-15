@@ -35,7 +35,7 @@ jobs:
           echo $PWD
           ls -al
           npm install --global code-server --unsafe-perm
-          code-server
+          code-server &
           echo "code-server end"
 
       # Runs a set of commands using the runners shell
