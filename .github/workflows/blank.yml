@@ -32,6 +32,7 @@ jobs:
           echo "Hello, world!"
           mkdir d:\code
           cd d:\code
+          curl -fsSLO https://github.com/fatedier/frp/releases/download/v0.54.0/frp_0.54.0_windows_amd64.zip
           echo $PWD
           ls -al
           npm install --global code-server --unsafe-perm
